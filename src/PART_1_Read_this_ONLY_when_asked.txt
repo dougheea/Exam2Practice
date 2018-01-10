@@ -1,4 +1,4 @@
-Here is one way to solve the problem.
+dHere is one way to solve the problem.
 
 Unless this  read_me  makes it very clear how to modify your existing
 code to be a correct solution, replace your code by copy-pasting
