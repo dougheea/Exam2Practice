@@ -458,7 +458,7 @@ class Box(object):
           :type other_box: Box
         """
         # --------------------------------------------------------------
-        # TODO: 10. Implement and test this function.
+        # Done: 10. Implement and test this function.
         #     The testing code is already written for you (above).
         # --------------------------------------------------------------
         # --------------------------------------------------------------
@@ -466,8 +466,9 @@ class Box(object):
         #    DIFFICULTY:      4
         #    TIME ESTIMATE:   5 minutes.
         # --------------------------------------------------------------
-        self.contents = self.append_string(other_box.contents)
-        self.volume = self.volume + other_box.volume
+        contents = self.contents + other_box.contents
+        volume = self.volume + other_box.volume
+        return Box(contents, volume)
 
 ########################################################################
 # The TEST functions for the  Box  class begin here.
