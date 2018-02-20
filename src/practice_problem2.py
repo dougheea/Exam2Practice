@@ -197,6 +197,7 @@ def practice_problem2b(sequence):
     Type hints:
       :type sequence [str]
     """
+
     ####################################################################
     # Done: 4. Implement and test this function.
     #     The testing code is already written for you (above).

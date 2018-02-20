@@ -155,6 +155,7 @@ def practice_problem3a(circles):
     Type hints:
       :type sequence: [rg.Circle]
     """
+
     ####################################################################
     # Done: 2. Implement and test this function.
     #     The testing code is already written for you (above).
